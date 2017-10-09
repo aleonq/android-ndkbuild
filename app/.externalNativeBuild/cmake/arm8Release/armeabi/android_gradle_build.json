@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\achitturi\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\achitturi\\AndroidStudioProjects\\HelloJNI\\app\\.externalNativeBuild\\cmake\\arm8Release\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jni-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "C:\\Users\\achitturi\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\achitturi\\AndroidStudioProjects\\HelloJNI\\app\\.externalNativeBuild\\cmake\\arm8Release\\armeabi --target hello-jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/sysroot -Dhello_jni_EXPORTS  -isystem C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/src/main/cpp/hello-jni.c",
+					"workingDirectory" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/.externalNativeBuild/cmake/arm8Release/armeabi"
+				}
+			],
+			"output" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/build/intermediates/cmake/arm8/release/obj/armeabi/libhello-jni.so",
+			"toolchain" : "4007997177"
+		}
+	},
+	"toolchains" : 
+	{
+		"4007997177" : 
+		{
+			"cCompilerExecutable" : "C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

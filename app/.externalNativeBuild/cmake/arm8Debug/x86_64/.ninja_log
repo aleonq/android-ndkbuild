@@ -1,0 +1,5 @@
+# ninja log v5
+0	59	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	701134be7b24d832
+60	109	0	C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/build/intermediates/cmake/arm8/debug/obj/x86_64/libhello-jni.so	efaef3352b369cc7
+1	75	0	CMakeFiles/hello-jni.dir/hello-jni.c.o	701134be7b24d832
+75	170	0	C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/build/intermediates/cmake/arm8/debug/obj/x86_64/libhello-jni.so	efaef3352b369cc7

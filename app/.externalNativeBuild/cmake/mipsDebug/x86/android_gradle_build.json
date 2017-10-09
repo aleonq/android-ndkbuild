@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\achitturi\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\achitturi\\AndroidStudioProjects\\HelloJNI\\app\\.externalNativeBuild\\cmake\\mipsDebug\\x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jni-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hello-jni",
+			"buildCommand" : "C:\\Users\\achitturi\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\achitturi\\AndroidStudioProjects\\HelloJNI\\app\\.externalNativeBuild\\cmake\\mipsDebug\\x86 --target hello-jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/sysroot -Dhello_jni_EXPORTS  -isystem C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/src/main/cpp/hello-jni.c",
+					"workingDirectory" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/.externalNativeBuild/cmake/mipsDebug/x86"
+				}
+			],
+			"output" : "C:/Users/achitturi/AndroidStudioProjects/HelloJNI/app/build/intermediates/cmake/mips/debug/obj/x86/libhello-jni.so",
+			"toolchain" : "4007997177"
+		}
+	},
+	"toolchains" : 
+	{
+		"4007997177" : 
+		{
+			"cCompilerExecutable" : "C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/achitturi/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
